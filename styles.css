@@ -1,12 +1,15 @@
 /* styles.css */
 
 body {
-    font-family: Helvetica, Arial, sans-serif; /* Simple sans-serif font, like hajimehoshi.com */
+    font-family: Helvetica, Arial, sans-serif;
+    /* Simple sans-serif font, like hajimehoshi.com */
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #333; /* Dark grey text for readability */
-    background-color: #fefefe; /* Very light grey background, almost white */
+    color: #333;
+    /* Dark grey text for readability */
+    background-color: #fefefe;
+    /* Very light grey background, almost white */
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -17,80 +20,105 @@ body {
     width: 8.5in;
     max-width: 8.5in;
     min-height: 11in;
-    background-color: #fefefe; /* Match body background for seamless look */
-    margin: 20mm; /* Keep margins for screen view */
-    margin-top: 0; /* Remove top margin */
-    padding: 30px; /* Padding inside the resume container */
+    background-color: #fefefe;
+    /* Match body background for seamless look */
+    margin: 20mm;
+    /* Keep margins for screen view */
+    margin-top: 0;
+    /* Remove top margin */
+    padding: 30px;
+    /* Padding inside the resume container */
     box-sizing: border-box;
-    border: 1px solid #ccc; /* Very light grey border to define container */
+    border: 1px solid #ccc;
+    /* Very light grey border to define container */
 }
 
 /* Header Section - Simplified */
 header {
-    text-align: left; /* Left align header, more modern */
-    margin-bottom: 1.5em; /* Slightly reduced margin */
+    text-align: left;
+    /* Left align header, more modern */
+    margin-bottom: 1.5em;
+    /* Slightly reduced margin */
 }
 
 header h1 {
-    font-size: 2.2em; /* Slightly smaller main title */
+    font-size: 2.2em;
+    /* Slightly smaller main title */
     margin-bottom: 0.1em;
-    color: #000; /* Black for main title */
+    color: #000;
+    /* Black for main title */
 }
 
 header p {
     font-size: 1em;
-    color: #555; /* Medium grey for contact info */
-    margin-bottom: 0.5em; /* Add some space below contact info */
+    color: #555;
+    /* Medium grey for contact info */
+    margin-bottom: 0.5em;
+    /* Add some space below contact info */
 }
 
 /* Section Styling - Clean and Simple */
 section {
-    margin-bottom: 1.2em; /* Reduced section margin */
+    margin-bottom: 1.2em;
+    /* Reduced section margin */
 }
 
-section > h2 {
-    font-size: 1.4em; /* Smaller section titles */
+section>h2 {
+    font-size: 1.4em;
+    /* Smaller section titles */
     font-weight: bold;
-    color: #000; /* Black section titles */
-    border-bottom: 1px solid #bbb; /* Light grey border for sections */
+    color: #000;
+    /* Black section titles */
+    border-bottom: 1px solid #bbb;
+    /* Light grey border for sections */
     padding-bottom: 0.2em;
     margin-bottom: 0.6em;
-    text-align: left; /* Left align section titles */
+    text-align: left;
+    /* Left align section titles */
 }
 
 .section-content {
     margin-left: 0;
-    text-align: left; /* Left align content */
+    text-align: left;
+    /* Left align content */
 }
 
 /* Article Styling - Minimalist */
 article {
-    margin-bottom: 1em; /* Reduced article margin */
+    margin-bottom: 1em;
+    /* Reduced article margin */
     padding-bottom: 0.8em;
-    border-bottom: 1px dotted #ddd; /* Very subtle dotted line to separate entries */
+    border-bottom: 1px dotted #ddd;
+    /* Very subtle dotted line to separate entries */
 }
 
 article:last-child {
-    border-bottom: none; /* No border for the last article */
-    padding-bottom: 0; /* No padding for the last article */
+    border-bottom: none;
+    /* No border for the last article */
+    padding-bottom: 0;
+    /* No padding for the last article */
 }
 
 article h3 {
     font-size: 1.1em;
     font-weight: bold;
     margin-bottom: 0.2em;
-    color: #000; /* Black for job/degree titles */
+    color: #000;
+    /* Black for job/degree titles */
 }
 
 article p {
     font-size: 1em;
-    color: #555; /* Medium grey for descriptions */
+    color: #555;
+    /* Medium grey for descriptions */
     margin-bottom: 0.4em;
 }
 
 article ul {
-    list-style-type: disc; /* Revert to disc bullets for lists, if needed */
-    padding-left: 1.2em; /* Standard list indentation */
+    list-style-type: disc;
+    /* Revert to disc bullets for lists, if needed */
+    padding-left: 1.2em;
+    /* Standard list indentation */
     margin-left: 0;
 }
 
@@ -102,7 +130,8 @@ article li {
 
 /* Skills and Awards Lists - Consistent Styling */
 .section-content ul {
-    list-style-type: disc; /* Revert to disc bullets for skills/awards */
+    list-style-type: disc;
+    /* Revert to disc bullets for skills/awards */
     padding-left: 1.2em;
     margin-left: 0;
 }
@@ -122,36 +151,62 @@ article li {
 @media print {
     body {
         font-size: 11pt;
-        margin: 0; /* No body margins in print */
-        background-color: #fff; /* White background for print */
+        margin: 0;
+        /* No body margins in print */
+        background-color: #fff;
+        /* White background for print */
     }
+
     .resume-container {
         width: 8.5in;
         max-width: 8.5in;
         min-height: 11in;
-        padding: 30px; /* Keep padding in print */
+        padding: 30px;
+        /* Keep padding in print */
         box-shadow: none;
-        margin: 0; /* No container margins in print */
-        border: none; /* No border in print */
+        margin: 0;
+        /* No container margins in print */
+        border: none;
+        /* No border in print */
     }
+
     header {
         margin-bottom: 0.8cm;
     }
+
     section {
         margin-bottom: 0.8cm;
     }
+
     article {
         padding-bottom: 0.2cm;
         border-bottom: 1px dotted #ddd;
     }
+
     article:last-child {
         border-bottom: none;
         padding-bottom: 0;
     }
-    nav, aside, footer, form, iframe, .no-print {
+
+    nav,
+    aside,
+    footer,
+    form,
+    iframe,
+    .no-print {
         display: none !important;
     }
+
     a[href]::after {
         content: " (" attr(href) ")";
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .resume-container {
+        margin: 0;
+        padding: 10px;
+        border: none;
     }
 }
