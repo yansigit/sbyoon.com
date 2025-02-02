@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oxford Style Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            font-weight: bold;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        section h2 {
+            border-bottom: 1px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .section-content {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <header>
+            <h1>Seongbin Yoon</h1>
+            <p>I am a software engineer and devops engineer. I love building scalable, efficient and secure software systems.</p>
+            <p>
+                <a href="https://github.com/yansigit" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/sbyoon" target="_blank">LinkedIn</a>
+            </p>
+            <p>Email: yoonsb@outlook.com</p>
+        </header>
+
+        <section>
+            <h2>Professional Experience</h2>
+            <div class="section-content">
+                <article>
+                    <h3>DevOps Systems Developer</h3>
+                    <p>The Co-operators, Guelph, Canada | September 2022 - Present</p>
+                    <ul>
+                        <li>Designed and implemented a range of automation processes using Jenkins, GitHub Actions, Selenium, and Playwright, including the development of comprehensive pipelines that integrate JFrog Artifactory and Docker for enhanced deployment.</li>
+                        <li>Successfully deployed multiple products, ensuring seamless integration and optimal functionality while addressing technical debt through code refactoring and system performance optimization.</li>
+                        <li>Migrated the company's version control from CVS to Git and transitioned repositories from Bitbucket to GitHub, integrating GitHub Actions for continuous integration.</li>
+                        <li>Utilized Kong for API management and security, alongside OpenShift for container orchestration, and Vault for secrets management, enhancing overall infrastructure security and efficiency, including the recycling of passwords and managing sensitive credentials.</li>
+                        <li>Decommissioned legacy Jenkins and Linux servers, transitioning to Docker-based solutions to improve scalability and maintainability, while leveraging Jenkins, GitHub Actions, OpenShift, AWS, and Azure for effective infrastructure management.</li>
+                        <li>Maintained compliance with industry standards by ensuring proper certification management and implementing best practices for password recycling and security protocols.</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Frontend Developer</h3>
+                    <p>Grepp Inc., Seoul, Korean | April 2022 - June 2022</p>
+                    <ul>
+                        <li>Led the development of an internationalization (i18n) system with an automated translation feature using JavaScript and Vue.</li>
+                        <li>Collaborated closely with designers to deliver a new web service under tight deadlines, actively participating in code reviews to ensure high-quality output using JavaScript and React, alongside Figma for design integration.</li>
+                        <li>Increased test coverage from 5% to 80% by implementing unit tests and adhering to front-end test-driven development (TDD) practices, thereby ensuring reliable and secure software development with React Testing Library.</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Software Engineer</h3>
+                    <p>ITNJ Software, Ulsan, Korea | January 2020 - December 2021</p>
+                    <ul>
+                        <li>Developed a robust commercial platform capable of hosting over 30 live conferences simultaneously, supporting up to 100,000 daily visitors without compromising performance, utilizing PHP, CodeIgniter, and JavaScript.</li>
+                        <li>Modernized legacy Java web applications originally built with JSP by transforming them into single-page applications using JavaScript, React, Java, and Spring Boot.</li>
+                    </ul>
+                </article>
+                <!-- Add more experience entries as needed -->
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Programming Languages: Python, Golang, TypeScript, JavaScript, Dart, Java, C#</li>
+                    <li>Libraries: PlayWright, Selenium, React (Next.js), Vue.js, Flutter, ASP.NET, PyTorch, Transformers</li>
+                    <li>Platforms: Docker, Kubernetes, Jenkins, GitHub (and Github Actions), Bitbucket, JFrog Artifactory, Kong, OpenShift, AWS, Azure, Vault</li>
+                    <li>Languages: Korean (Native), English (business), Japanese (business)</li>
+                    <li>Open Source Contributions: StableMatrix, RecTerm</li>
+                    <!-- Add more skills as needed -->
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="section-content">
+                <article>
+                    <h3>Bachelor of Engineering, Information Technology</h3>
+                    <p>University of Ulsan, 2022</p>
+                </article>
+                <article>
+                    <h3>Nanodegree, Deep Learning</h3>
+                    <p>Udacity, 2021</p>
+                </article>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
