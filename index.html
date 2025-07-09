@@ -3,105 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seongbin Yoon</title>
+    <title>Aiden Yoon | DevOps Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            margin: 20px;
-            line-height: 1.6;
-        }
-        h1, h2, h3 {
-            font-weight: bold;
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        section h2 {
-            border-bottom: 1px solid #000;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
-        .section-content {
-            margin-left: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <div class="resume-container">
-        <header>
-            <h1>Seongbin Yoon</h1>
-            <p>I am a software engineer and devops engineer. I love building scalable, efficient and secure software systems.</p>
-            <p>
-                <a href="https://github.com/yansigit" target="_blank">GitHub</a> |
-                <a href="https://www.linkedin.com/in/sbyoon" target="_blank">LinkedIn</a>
+    <div class="container">
+        <header class="header">
+            <h1 class="name">Aiden Yoon</h1>
+            <p class="tagline">DevOps Engineer | AI Enthusiast</p>
+            <div class="contact-info">
+                <span><i class="fas fa-map-marker-alt"></i> Calgary, Canada</span> |
+                <a href="mailto:yoonsb@outlook.com"><i class="fas fa-envelope"></i> yoonsb@outlook.com</a> |
+                <a href="https://linkedin.com/in/sbyoon" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/sbyoon</a> |
+                <a href="https://sbyoon.com" target="_blank"><i class="fas fa-globe"></i> sbyoon.com</a>
+            </div>
+            <p class="summary">
+                Highly skilled and motivated <strong>DevOps Engineer</strong> with <strong>3 years of experience</strong>. Demonstrated expertise in <strong>Cloud Platforms</strong>, <strong>CI/CD</strong>, <strong>Automation</strong>, and multiple programming languages. Currently focusing on the practical application of <strong>generative and agentic AI</strong> to create innovative solutions for real-world problems.
             </p>
-            <p>Email: yoonsb@outlook.com</p>
         </header>
 
-        <section>
-            <h2>Professional Experience</h2>
-            <div class="section-content">
-                <article>
-                    <h3>DevOps Systems Developer</h3>
-                    <p>The Co-operators, Guelph, Canada | September 2022 - Present</p>
+        <main class="main-content">
+            <section class="section experience">
+                <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience</h2>
+                <div class="job">
+                    <h3 class="job-title">Systems Developer (DevOps)</h3>
+                    <p class="job-meta">Co-operators | Sep 2022 - Present | Remote, Canada</p>
                     <ul>
-                        <li>Designed and implemented a range of automation processes using Jenkins, GitHub Actions, Selenium, and Playwright, including the development of comprehensive pipelines that integrate JFrog Artifactory and Docker for enhanced deployment.</li>
-                        <li>Successfully deployed multiple products, ensuring seamless integration and optimal functionality while addressing technical debt through code refactoring and system performance optimization.</li>
-                        <li>Migrated the company's version control from CVS to Git and transitioned repositories from Bitbucket to GitHub, integrating GitHub Actions for continuous integration.</li>
-                        <li>Utilized Kong for API management and security, alongside OpenShift for container orchestration, and Vault for secrets management, enhancing overall infrastructure security and efficiency, including the recycling of passwords and managing sensitive credentials.</li>
-                        <li>Decommissioned legacy Jenkins and Linux servers, transitioning to Docker-based solutions to improve scalability and maintainability, while leveraging Jenkins, GitHub Actions, OpenShift, AWS, and Azure for effective infrastructure management.</li>
-                        <li>Maintained compliance with industry standards by ensuring proper certification management and implementing best practices for password recycling and security protocols.</li>
+                        <li>Reduced manual tasks by <strong>40%</strong> and accelerated deployment cycles by <strong>25%</strong> by designing and implementing automation processes using <strong>Python</strong>, <strong>Jenkins</strong>, <strong>GitHub Actions</strong>, and <strong>Playwright</strong>.</li>
+                        <li>Deployed and delivered multiple crucial products with a <strong>99.9% uptime rate</strong>, ensuring seamless integration and optimal functionality across platforms like <strong>Teamcity</strong>, <strong>Jenkins</strong>, and <strong>Linux VMs</strong>.</li>
+                        <li>Migrated over <strong>100 repositories</strong> from Bitbucket to <strong>GitHub</strong>, completing the project <strong>2 weeks ahead of schedule</strong> and decreasing CI pipeline execution time by <strong>18%</strong>.</li>
+                        <li>Reduced infrastructure costs and improved scalability by <strong>50%</strong> by decommissioning legacy systems and transitioning to <strong>container-based solutions</strong> using <strong>OpenShift</strong>, <strong>AWS</strong>, and <strong>Azure</strong>.</li>
+                        <li>Enhanced security and API management by implementing <strong>Kong</strong>, <strong>OpenShift</strong>, and <strong>Vault</strong>, automating credential lifecycle and reducing manual secret rotation by <strong>80%</strong>.</li>
                     </ul>
-                </article>
-                <article>
-                    <h3>Frontend Developer</h3>
-                    <p>Grepp Inc., Seoul, Korean | April 2022 - June 2022</p>
+                </div>
+                <div class="job">
+                    <h3 class="job-title">Frontend Engineer (Junior)</h3>
+                    <p class="job-meta">Grepp, Inc. | Apr 2022 - Jun 2022 | Remote, Korea</p>
                     <ul>
-                        <li>Led the development of an internationalization (i18n) system with an automated translation feature using JavaScript and Vue.</li>
-                        <li>Collaborated closely with designers to deliver a new web service under tight deadlines, actively participating in code reviews to ensure high-quality output using JavaScript and React, alongside Figma for design integration.</li>
-                        <li>Increased test coverage from 5% to 80% by implementing unit tests and adhering to front-end test-driven development (TDD) practices, thereby ensuring reliable and secure software development with React Testing Library.</li>
+                        <li>Developed an <strong>internationalization (i18n)</strong> system with automated translation using <strong>JavaScript</strong> and <strong>Vue.js</strong>, reducing manual translation efforts by <strong>75%</strong>.</li>
+                        <li>Collaborated with designers to deliver a new web service under tight deadlines, ensuring <strong>high-quality output</strong> through active participation in code reviews.</li>
+                        <li>Increased test coverage from <strong>5% to 80%</strong> by implementing unit tests and adhering to <strong>TDD practices</strong> with <strong>React Testing Library</strong>.</li>
                     </ul>
-                </article>
-                <article>
-                    <h3>Software Engineer</h3>
-                    <p>ITNJ Software, Ulsan, Korea | January 2020 - December 2021</p>
-                    <ul>
-                        <li>Developed a robust commercial platform capable of hosting over 30 live conferences simultaneously, supporting up to 100,000 daily visitors without compromising performance, utilizing PHP, CodeIgniter, and JavaScript.</li>
-                        <li>Modernized legacy Java web applications originally built with JSP by transforming them into single-page applications using JavaScript, React, Java, and Spring Boot.</li>
-                    </ul>
-                </article>
-                <!-- Add more experience entries as needed -->
-            </div>
-        </section>
+                </div>
+            </section>
 
-        <section>
-            <h2>Skills</h2>
-            <div class="section-content">
-                <ul>
-                    <li>Programming Languages: Python, Golang, TypeScript, JavaScript, Dart, Java, C#</li>
-                    <li>Libraries: PlayWright, Selenium, React (Next.js), Vue.js, Flutter, ASP.NET, PyTorch, Transformers</li>
-                    <li>Platforms: Docker, Kubernetes, Jenkins, GitHub (and Github Actions), Bitbucket, JFrog Artifactory, Kong, OpenShift, AWS, Azure, Vault</li>
-                    <li>Languages: Korean (Native), English (business), Japanese (business)</li>
-                    <li>Open Source Contributions: StableMatrix, RecTerm</li>
-                    <!-- Add more skills as needed -->
-                </ul>
-            </div>
-        </section>
+            <section class="section projects">
+                <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projects</h2>
+                <div class="project">
+                    <h3 class="project-title">Agentic Unit Test Analyzer | The Co-operators</h3>
+                    <p class="project-meta"><a href="https://shorturl.at/ErVDC" target="_blank">shorturl.at/ErVDC</a> | Mar 2024 - Jun 2024</p>
+                    <ul>
+                        <li>Engineered a POC <strong>Agentic Unit Test Analyzer</strong> using <strong>Azure OpenAI</strong> to automate unit test coverage analysis and generation for GitHub repositories.</li>
+                        <li>Designed and animated a web frontend dashboard with <strong>TypeScript</strong>, <strong>SvelteKit</strong>, and <strong>GSAP</strong>.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Kokoro-TTS-Flutter | Github (Open Source)</h3>
+                    <p class="project-meta"><a href="https://github.com/yansigit/Kokoro-TTS-Flutter" target="_blank">github.com/yansigit/Kokoro-TTS-Flutter</a> | May 2025 - May 2025</p>
+                    <ul>
+                        <li>Enabled <strong>edge device deployment</strong> of Kokoro TTS by porting Python runtime to <strong>Dart (Flutter)</strong> and integrating <strong>ONNX</strong> for optimized performance.</li>
+                        <li>Achieved a <strong>40% reduction</strong> in inference time by integrating <strong>Int8 quantized model</strong> support.</li>
+                    </ul>
+                </div>
+            </section>
 
-        <section>
-            <h2>Education</h2>
-            <div class="section-content">
-                <article>
-                    <h3>Bachelor of Engineering, Information Technology</h3>
-                    <p>University of Ulsan, 2022</p>
-                </article>
-                <article>
-                    <h3>Nanodegree, Deep Learning</h3>
-                    <p>Udacity, 2021</p>
-                </article>
-            </div>
-        </section>
+            <section class="section skills">
+                <h2 class="section-title"><i class="fas fa-cogs"></i> Skills</h2>
+                <div class="skill-category">
+                    <h4>Programming</h4>
+                    <ul>
+                        <li>Python</li>
+                        <li>Golang</li>
+                        <li>TypeScript</li>
+                        <li>JavaScript</li>
+                        <li>Dart</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>DevOps &amp; Cloud</h4>
+                    <ul>
+                        <li>AWS</li>
+                        <li>Azure</li>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                        <li>OpenShift</li>
+                        <li>Jenkins</li>
+                        <li>GitHub Actions</li>
+                        <li>CI/CD</li>
+                        <li>Vault</li>
+                        <li>Kong</li>
+                        <li>Teamcity</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Frontend</h4>
+                    <ul>
+                        <li>React (Next.js)</li>
+                        <li>Vue.js</li>
+                        <li>SvelteKit</li>
+                        <li>Flutter</li>
+                        <li>GSAP</li>
+                        <li>Playwright</li>
+                        <li>Selenium</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>AI &amp; Machine Learning</h4>
+                    <ul>
+                        <li>PyTorch</li>
+                        <li>Transformers</li>
+                        <li>Generative AI</li>
+                        <li>AI Agents</li>
+                        <li>MCP</li>
+                        <li>ONNX</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Spoken Languages</h4>
+                    <ul>
+                        <li>Korean (Native)</li>
+                        <li>English (Business)</li>
+                        <li>Japanese (Business)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section education">
+                <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="education-item">
+                    <h3 class="degree">Bachelor of Engineering, Information Technology</h3>
+                    <p class="institution">University of Ulsan, 2022</p>
+                </div>
+                <div class="education-item">
+                    <h3 class="degree">Nanodegree, Deep Learning</h3>
+                    <p class="institution">Udacity, 2021</p>
+                </div>
+            </section>
+        </main>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            gsap.registerPlugin(ScrollTrigger);
+
+            // Animate header
+            gsap.from('.header', {
+                opacity: 0,
+                y: -50,
+                duration: 1,
+                ease: 'power3.out'
+            });
+
+            // Animate sections on scroll
+            gsap.utils.toArray('.section').forEach(section => {
+                gsap.from(section, {
+                    opacity: 0,
+                    y: 50,
+                    duration: 1,
+                    ease: 'power3.out',
+                    scrollTrigger: {
+                        trigger: section,
+                        start: 'top 80%',
+                        toggleActions: 'play none none none'
+                    }
+                });
+            });
+
+            // Animate list items
+            gsap.utils.toArray('.job, .project, .skills ul li, .education-item').forEach(item => {
+                gsap.from(item, {
+                    opacity: 0,
+                    x: -30,
+                    duration: 0.8,
+                    ease: 'power3.out',
+                    scrollTrigger: {
+                        trigger: item,
+                        start: 'top 90%',
+                        toggleActions: 'play none none none'
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
